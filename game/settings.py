@@ -1,0 +1,31 @@
+# Display
+WIDTH = 1280
+HEIGHT = 720
+FPS = 60
+
+# Colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 80, 80)
+GREEN = (120, 255, 150)
+BLUE = (110, 180, 255)
+YELLOW = (255, 220, 100)
+DARK = (15, 18, 24)
+DARK_GRAY = (30, 35, 45)
+ACCENT = (200, 100, 255)
+HEALTH_GREEN = (100, 220, 120)
+HEALTH_RED = (255, 80, 80)
+TEXT_LIGHT = (220, 225, 235)
+TEXT_GRAY = (150, 160, 175)
+
+# Game
+PLAYER_SPEED = 350  # pixels per second
+PLAYER_SIZE = 16
+MAX_PLAYERS = 100
+SHOOTER_COOLDOWN = 100  # milliseconds
+MAX_HP = 100
+
+# Network
+HOST = "127.0.0.1"
+PORT = 5555
+NETWORK_TICK = 30  # milliseconds
